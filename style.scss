@@ -147,6 +147,10 @@ table {
 th {
     height: 50px;
 }
+
+th {
+    text-align: left;
+}
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
