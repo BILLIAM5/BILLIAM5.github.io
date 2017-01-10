@@ -133,23 +133,28 @@ img {
 
 table {
     border-collapse: collapse;
+	
 }
 
 table, th, td {
     border: 1px solid black;
     width: 100%
+	    
 }
 
 table {
     width: 100%;
+	
 }
 
 th {
     height: 50px;
+	
 }
 
 th {
     text-align: left;
+	
 }
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
