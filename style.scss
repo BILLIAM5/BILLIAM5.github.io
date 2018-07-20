@@ -1,3 +1,14 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+// Syntax highlighting @import is at the bottom of this file
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -7,10 +18,10 @@ html {
 }
 
 body {
-	background: $white;	+	background: $lightBlue;
- font: 18px/1.4 $helvetica;	+  font: 18px/1.4 $inherit;
- color: $darkGray;	+  color: $darkBlue;
- }	 }
+	background: $white;
+  font: 18px/1.4 $helvetica;
+  color: $darkGray;
+}
 
 .container {
   margin: 0 auto;
@@ -119,36 +130,6 @@ img {
   background: $lightGray;
 }
 
-table {
-    border-collapse: collapse;
-	
-}
-
-table, th, td {
-    border: 1px solid black;
-    width: 100%
-	    
-}
-
-table {
-    width: 100%;
-	
-}
-
-th {
-    height: 50px;
-	
-}
-
-th {
-    text-align: left;
-	
-}
-
-tr:hover {
-    background-color: #f5f5f5
-
-}
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
@@ -306,28 +287,3 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
-
-table, th, td {
-   border: 1px solid black;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid black;
-}
-
-table {
-    width: 100%;
-}
-
-th {
-    height: 50px;
-}
-
-th, td {
-    padding: 15px;
-    text-align: left;
-}
