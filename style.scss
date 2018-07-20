@@ -7,9 +7,9 @@ html {
 }
 
 body {
--	background: $white;	+	background: $lightBlue;
--  font: 18px/1.4 $helvetica;	+  font: 18px/1.4 $inherit;
--  color: $darkGray;	+  color: $darkBlue;
+	background: $white;	+	background: $lightBlue;
+ font: 18px/1.4 $helvetica;	+  font: 18px/1.4 $inherit;
+ color: $darkGray;	+  color: $darkBlue;
  }	 }
 
 .container {
